@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request A Quote - ONE WAY FULFILLMENT</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#content" class="skip-link">Skip to content</a>
+
+    <!-- Top notification bar -->
+    <div class="notification-bar">
+        <p>ONEWAY-FULFILLMENT is verified and trusted moving company.</p>
+        <a href="request-a-quote.html" class="get-estimate-btn">Get Free Estimate</a>
+    </div>
+
+    <!-- Contact info bar -->
+    <div class="contact-bar">
+        <div class="contact-item">
+            <a href="mailto:wgardner@onewayfulfillment.com">wgardner@onewayfulfillment.com</a>
+            <span>Email address</span>
+        </div>
+        <div class="logo-container">
+            <img src="https://1onewayfulfillment.com/wp-content/uploads/2024/03/1-Way-Logo.png" alt="ONE WAY FULFILLMENT Logo">
+        </div>
+        <div class="contact-item">
+            <a href="tel:(410) 736-2327">(410) 736-2327</a>
+            <span>Phone line</span>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://1onewayfulfillment.com/wp-content/uploads/2024/03/1-Way-Logo.png" alt="ONE WAY FULFILLMENT">
+                </a>
+            </div>
+            <nav class="site-nav">
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="request-a-quote.html" class="active">Request A Quote</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="page-header-content">
+                <h1>Request A Quote</h1>
+                <p>Get a personalized fulfillment solution tailored to your business needs</p>
+            </div>
+        </section>
+
+        <!-- Quote Form Section -->
+        <section class="quote-form-section">
+            <div class="quote-container">
+                <div class="quote-intro">
+                    <h2>Get Your Free Fulfillment Quote</h2>
+                    <p>Fill out the form below and our team will provide you with a customized quote based on your specific requirements. We'll get back to you within 24 hours.</p>
+                </div>
+
+                <form id="quote-form" class="quote-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="website">Website URL</label>
+                        <input type="url" id="website" name="website" placeholder="https://yourwebsite.com">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="monthlyOrders">Monthly Order Volume</label>
+                            <select id="monthlyOrders" name="monthlyOrders">
+                                <option value="">Select volume range</option>
+                                <option value="1-100">1-100 orders</option>
+                                <option value="101-500">101-500 orders</option>
+                                <option value="501-1000">501-1,000 orders</option>
+                                <option value="1001-5000">1,001-5,000 orders</option>
+                                <option value="5000+">5,000+ orders</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="productTypes">Product Types</label>
+                            <select id="productTypes" name="productTypes">
+                                <option value="">Select product type</option>
+                                <option value="apparel">Apparel & Fashion</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="health-beauty">Health & Beauty</option>
+                                <option value="home-garden">Home & Garden</option>
+                                <option value="books-media">Books & Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="currentProvider">Current Fulfillment Provider (if any)</label>
+                        <input type="text" id="currentProvider" name="currentProvider" placeholder="e.g., Self-fulfilled, Amazon FBA, Other 3PL">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="timeline">When do you need fulfillment services?</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Select timeline</option>
+                            <option value="immediately">Immediately</option>
+                            <option value="1-month">Within 1 month</option>
+                            <option value="2-3-months">2-3 months</option>
+                            <option value="3-6-months">3-6 months</option>
+                            <option value="planning">Just planning ahead</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="services">Services Needed (check all that apply)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services[]" value="fulfillment">
+                                <span class="checkmark"></span>
+                                Order Fulfillment
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services[]" value="inventory">
+                                <span class="checkmark"></span>
+                                Inventory Management
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services[]" value="returns">
+                                <span class="checkmark"></span>
+                                Returns Processing
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services[]" value="kitting">
+                                <span class="checkmark"></span>
+                                Kitting & Assembly
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services[]" value="custom">
+                                <span class="checkmark"></span>
+                                Custom Solutions
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us more about your business, specific requirements, or any questions you have..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Request Quote</button>
+                    </div>
+
+                    <p class="form-note">* Required fields. We respect your privacy and will never share your information with third parties.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="quote-benefits">
+            <div class="benefits-container">
+                <h3>Why Request A Quote From Us?</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h4>Free Consultation</h4>
+                        <p>No obligation quote with personalized recommendations for your business.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Quick Response</h4>
+                        <p>We'll get back to you within 24 hours with a detailed proposal.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Transparent Pricing</h4>
+                        <p>Clear, upfront pricing with no hidden fees or surprise charges.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Custom Solutions</h4>
+                        <p>Tailored fulfillment strategies designed specifically for your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="https://1onewayfulfillment.com/wp-content/uploads/2024/03/1-Way-Logo.png" alt="ONE WAY FULFILLMENT">
+            </div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="request-a-quote.html">Request a Quote</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Phone</h5>
+                    <a href="tel:(410) 736-2327">(410) 736-2327</a>
+                </div>
+                <div class="footer-section">
+                    <h5>Email Address</h5>
+                    <a href="mailto:wgardner@onewayfulfillment.com">wgardner@onewayfulfillment.com</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <span>Twitter Facebook-f Linkedin-in Youtube</span>
+            </div>
+            <div class="footer-bottom">
+                <p>© Copyright 2024 by ONEWAY FULFILLMENT</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
