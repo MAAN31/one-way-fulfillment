@@ -1,8 +1,4 @@
 
-Built by https://www.blackbox.ai
-
----
-
 # ONE WAY FULFILLMENT
 
 ## Project Overview
@@ -13,7 +9,7 @@ To set up the ONE WAY FULFILLMENT website on your local machine, follow these st
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/one-way-fulfillment.git
+   git clone https://github.com/MAAN31/one-way-fulfillment.git
    ```
 
 2. **Navigate to the Project Directory:**
